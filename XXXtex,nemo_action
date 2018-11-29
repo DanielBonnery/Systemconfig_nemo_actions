@@ -1,0 +1,13 @@
+[Nemo Action]
+Name=XXXtex Me
+Comment=Run Pdflatex, bibtex, pdflatex on a file
+
+Exec=gnome-terminal --working-directory=%P -x sh -c "XXXtex %f && cleantexfile %f"
+
+Icon-Name=bug-buddy
+
+Selection=Any
+
+Extensions=tex;
+
+Quote=double
