@@ -8,10 +8,11 @@ Each action consist of one or more files to place in
 
 So far there is only one nemo action.
 
-- PdflatexMe with pdflatex, applicable to .tex files, two files:
+- Pdflatex me with pdflatex, applicable to .tex files, two files:
   It consists of two files:
   - the menu
   - the action
   
   In the future, will be more, maybe:
-  - SweaveMe with pdflatex, applicable to .rnw files
+  - Sweave me with pdflatex, applicable to .rnw files
+  - R me ...
