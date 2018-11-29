@@ -1,0 +1,11 @@
+[Nemo Action]
+Name=XXXtex Me
+Comment=Run Pdflatex, bibtex, pdflatex on a file
+Quote=double
+Exec=gnome-terminal -x sh -c "pdflatex  %F | less"
+
+Icon-Name=bug-buddy
+
+Selection=Any
+
+Extensions=tex;
