@@ -1,0 +1,10 @@
+[Nemo Action]
+
+ Name=Merge pdfs DB
+ Comment=Merge pdfs
+ Quote=double
+ Selection=m
+ Exec= bash -c 'rnw() { OUTPUTNAME=$(zenity --entry  --text="Enter desired output file name without pdf extension") ;  /usr/bin/pdftk  "${@:1:$#-1}" cat output  ${@:$#}/$OUTPUTNAME.pdf ; } ; rnw   %F %P'
+ Icon-Name=terminator
+ Extensions=pdf;
+ 
