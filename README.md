@@ -6,13 +6,11 @@ Each action consist of one or more files to place in
 - ~/.local/share/nemo/actions/ for user actions
 
 
-So far there is only one nemo action.
+So far there are only two nemo actions available.
 
 - Pdflatex me with pdflatex, applicable to .tex files, two files:
   It consists of two files:
   - the menu
   - the action
   
-  In the future, will be more, maybe:
-  - Sweave me with pdflatex, applicable to .rnw files
-  - R me ...
+- merge us pdfs: merge pdfs with pdftk 
